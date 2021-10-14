@@ -4,7 +4,6 @@ let elBody = document.querySelector("body");
 let darkLightbtn = document.querySelector('.dark-light-btn');
 darkLightbtn.addEventListener('click', function() {
   elBody.classList.toggle('dark-content');
-  console.log(adsa);
 })
 
 // Typing txt
@@ -21,7 +20,6 @@ let letter = "";
   }
   currentText = texts[count];
   letter = currentText.slice(0, ++index);
-  console.log(texts[count]);
   document.querySelector(".typing").textContent = letter;
   if (letter.length === currentText.length) {
     count++;
