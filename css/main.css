@@ -1,3 +1,5 @@
+
+
 :root {
    --bgc-body: #10101A;
    --bgc-header: #0C0C14;
@@ -818,3 +820,30 @@ main {
       background-image: url(/img/logo.jpg);
    }
 }
+
+
+/* ------Contact-section------ */
+
+
+@media screen and (min-width: 1px) {
+   .contact__inner {
+      padding: 50px 0;
+   }
+   .contact__item {
+      max-width: 290px;
+   }
+   .contact__item-title {
+      font-size: 28px;
+      margin-bottom: 20px;
+   }
+   .contact__item-desc {
+      font-size: 15px;
+      margin-bottom: 15px;
+   }
+   .contact__address {
+      max-width: 260px;
+      font-style: normal;
+   }
+}
+
+
